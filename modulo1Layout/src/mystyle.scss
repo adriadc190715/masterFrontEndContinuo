@@ -1,0 +1,44 @@
+$base-colors: (
+  container-1: red,
+  container-2: blue,
+  container-3: green
+);
+
+$num-tonos: 4;
+$incremento: 8%;
+
+
+@each $container, $base-color in $base-colors {
+  .#{$container} {
+    .box {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      margin: 2px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #ccc;
+    }
+
+    .color-box-text {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    @for $i from 1 through $num-tonos {
+      .box.darken-#{$i} {
+        background-color: darken($base-color, $incremento * $i);
+      }
+      .box.lighten-#{$i} {
+        background-color: lighten($base-color, $incremento * $i);
+      }
+    }
+
+    .box.base-color {
+      background-color: $base-color;
+    }
+  }
+}
