@@ -1,0 +1,41 @@
+//@import url(/src/_temaA.scss); // descomenta para usar temaA
+//@import url(/src/_temaB.scss); // descomenta para usar tema B
+
+:root {
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body  {
+
+    margin: 50px;
+}
+
+.box1{
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.box2{
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.box3{
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.box-shadow{
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+
+
+

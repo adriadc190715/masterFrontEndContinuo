@@ -1,0 +1,17 @@
+:root {
+  box-sizing: border-box;
+  font-family: Times New Roman, Times, serif;
+}
+
+body {
+  margin: 50px;
+}
+
+.box1, .box2, .box3, .box-shadow {
+  border: 1px solid #000;
+  width: 100px;
+  height: 80px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=index.2103b895.css.map */

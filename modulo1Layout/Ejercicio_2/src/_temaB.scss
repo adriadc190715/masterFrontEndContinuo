@@ -1,0 +1,35 @@
+@import 'main';
+
+.box1 {
+    background-color: blue;
+    border-radius: 10px;
+}
+.box2 {
+    background-color: rgb(4, 4, 80);
+    border-radius: 10px;
+}
+    
+
+
+.box3 {
+    background-color: rgb(164, 164, 252);
+    border-radius: 10px;
+}
+
+
+.box-shadow {
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+
+
+}
+
+p:nth-of-type(1) {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+  p:nth-of-type(2) {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
