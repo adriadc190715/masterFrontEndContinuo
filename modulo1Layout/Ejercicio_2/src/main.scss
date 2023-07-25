@@ -1,40 +1,22 @@
 //@import url(/src/_temaA.scss); // descomenta para usar temaA
-//@import url(/src/_temaB.scss); // descomenta para usar tema B
+//@import url(/src/_temaB.scss); // descomenta para usar temaB
 
 :root {
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
-}
-
-body  {
-
+    font-family: 'Times New Roman', Times, serif;
     margin: 50px;
-}
-
-.box1{
+  }
+  
+  %box-styles {
     width: 100px;
     height: 80px;
     padding: 15px;
     border: 1px solid black;
-}
-.box2{
-    width: 100px;
-    height: 80px;
-    padding: 15px;
-    border: 1px solid black;
-}
-.box3{
-    width: 100px;
-    height: 80px;
-    padding: 15px;
-    border: 1px solid black;
-}
-.box-shadow{
-    width: 100px;
-    height: 80px;
-    padding: 15px;
-    border: 1px solid black;
-}
+  }
+  
+  .box1, .box2, .box3, .box-shadow {
+    @extend %box-styles;
+  }
 
 
 

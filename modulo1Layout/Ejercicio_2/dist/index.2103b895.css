@@ -1,10 +1,7 @@
 :root {
   box-sizing: border-box;
-  font-family: Times New Roman, Times, serif;
-}
-
-body {
   margin: 50px;
+  font-family: Times New Roman, Times, serif;
 }
 
 .box1, .box2, .box3, .box-shadow {
